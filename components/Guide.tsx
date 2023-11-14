@@ -3,15 +3,35 @@ import React from "react";
 
 const Guide = () => {
   return (
-    <section className="py-10 bg-gray-200 max-container px-2">
-      <div className="container mx-auto flex flex-row items-center ">
-        {/* Column 1 */}
-        <div className="w-full text-center mb-8 md:mb-0">
-          <h2 className="mGuideHeader text-3xl font-bold mb-4 lg:bold-64 xl:max-w-[900px] text-left px-5">
-            Optimize productivity<br></br> with our AI chatbot for <br></br>
-            seamless business <br></br>automation.
+    <section
+      className="py-10 bg-gray-200 max-container px-2"
+      // className="flexCenter w-full flex-col px-5 py-8 bg-gray-200"
+    >
+      {/* <div className="container mx-auto flex flex-row items-center ">
+        
+        <div className="w-full text-center mb-8 md:mb-0"> */}
+      <div
+        className="z-20 flex flex-1 padding-container flex-col w-full pb-7 mColumnConvert pColumnConvert"
+        // className="z-20 flex flex-1 flex-row items-start justify-center mColumnConvert pColumnConverts "
+      >
+        <div
+          // className="relative z-20 flex flex-1 flex-col xl:w-1/2 "
+          className="relative flex flex-1 flex-col items-start justify-center"
+        >
+          {/* <h1
+            // className="bold-52 lg:bold-38"
+            className="bold-18 lg:bold-64 xl:max-w-[770px] sm:bold-64 "
+          >
+            Optimize productivity with our AI chatbot for seamless business
+            automation.
+          </h1> */}
+          <h2 className="mGuideHeader text-3xl font-bold mb-4 lg:bold-64 xl:max-w-[900px] text-left xl:w-11/12">
+            {/* Optimize productivity<br></br> with our AI chatbot for <br></br>
+            seamless business <br></br>automation. */}
+            Optimize productivity with our AI chatbot for seamless business
+            automation.
           </h2>
-          <p className="text-gray-600 text-left px-5">
+          <p className="text-gray-600 text-left ">
             At AI-Ware-Lab, we craft advanced automations simplifying your
             business workflow, enhancing sales, reducing costs, and maximizing
             productivity.
@@ -19,7 +39,7 @@ const Guide = () => {
         </div>
 
         {/* Column 2 */}
-        <div className="w-full">
+        <div className="px-10">
           <img
             src="/bot2.png" // Replace with the path to your JPG image
             alt="Column 2 Image"
@@ -38,7 +58,7 @@ const Guide = () => {
           </div>*/}
         </div>
       </div>
-      <div className="w-full">
+      <div className="w-full py-10">
         <img
           src="/bot2.png" // Replace with the path to your JPG image
           alt="Column 2 Image"

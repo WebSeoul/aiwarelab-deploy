@@ -32,11 +32,12 @@ const Hero = () => {
       >
         <div
           // className="relative z-20 flex flex-1 flex-col xl:w-1/2 "
-          className="z-20 flex w-8/12 flex-1 flex-col items-start justify-center"
+          className="z-20 flex w-8/12 flex-1 flex-col items-start justify-center "
         >
           <h1
             // className="bold-52 lg:bold-38"
-            className="bold-30 lg:bold-64 xl:max-w-[770px]"
+            // className="bold-18 lg:bold-64 xl:max-w-[770px] sm:bold-64 "
+            className="text-3xl font-bold mb-4 lg:bold-64 xl:max-w-[900px]"
           >
             Unleashing the Power of AI Automation for Businesses.
           </h1>
@@ -104,7 +105,7 @@ const Hero = () => {
           <Image
             src="/195.png"
             alt="phones"
-            width={500}
+            width={400}
             height={50}
             className="mImage"
           />

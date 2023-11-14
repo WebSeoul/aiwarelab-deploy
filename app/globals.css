@@ -160,6 +160,12 @@ body {
   .mImageGuide2 {
     display: none;
   }
+  .pColumnConvert {
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 140px;
+  }
+
   .pFooterImage {
     margin-left: 100px;
   }
@@ -187,14 +193,22 @@ body {
     height: 60%; */
   }
   .mGuideHeader {
-    /* width: 10%; */
     text-align: start;
-    text-wrap: nowrap;
+    text-wrap: pretty;
+
+    /* flex-direction: column; */
+  }
+  .mColumnConvert {
+    flex-direction: column;
   }
   .imageGuide2 {
     margin-top: 10px;
     width: 50%;
     height: 40%;
+  }
+  .mFeatureHeader {
+    /* text-align: center; */
+    /* text-decoration: underline; */
   }
   .mservices {
     flex-direction: column;
