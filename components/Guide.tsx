@@ -58,7 +58,7 @@ const Guide = () => {
           </div>*/}
         </div>
       </div>
-      <div className="w-full py-10">
+      <div className="w-full pb-7">
         <img
           src="/bot2.png" // Replace with the path to your JPG image
           alt="Column 2 Image"
