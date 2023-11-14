@@ -187,8 +187,8 @@ body {
     height: 60%; */
   }
   .mGuideHeader {
-    width: 10%;
-    text-align: center;
+    /* width: 10%; */
+    text-align: start;
     text-wrap: nowrap;
   }
   .imageGuide2 {
