@@ -29,21 +29,21 @@ export interface CustomButtonProps {
 export const FEATURES = [
   {
     title: "Book appointments effortlessly",
-    icon: "/map.svg",
+    icon: "/calendar.svg",
     variant: "green",
     description:
       "Effortlessly schedule appointments with our intuitive chatbot, optimizing convenience for seamless booking experiences. Elevate your appointment-setting process with our user-friendly and efficient solution.",
   },
   {
     title: "24x7 Support for maintenance.",
-    icon: "/calendar.svg",
+    icon: "/tech.svg",
     variant: "green",
     description:
       "Our 24x7 Maintenance Support ensures uninterrupted operations. With constant assistance, keeping your business running smoothly. Rely on our dedicated team for prompt and reliable maintenance support anytime, anywhere.",
   },
   {
     title: "Automate Lead Capture, vetting & more...",
-    icon: "/tech.svg",
+    icon: "/map.svg",
     variant: "green",
     description:
       "At AI-Ware-Lab, we craft sophisticated automations to streamline your business workflows, enhancing sales, reducing costs, and boosting productivity.",

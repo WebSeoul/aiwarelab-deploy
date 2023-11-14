@@ -71,7 +71,7 @@ const Footer = () => {
           <Image src="bot4.svg" alt="logo" width={40} height={29} />
         </Link>
         <div className="container mx-auto text-center pFooterRights ">
-          <p>
+          <p className="gray-500  dark:text-gray-50">
             &copy; 2023 All rights reserved - Design & Developed by Navdeep
             Rattan.
           </p>

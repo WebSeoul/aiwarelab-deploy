@@ -65,7 +65,7 @@ const Sidebar = ({
         <ul className="sidebar-nav text-center leading-relaxed text-xl flex flex-col gap-5">
           <li
             onClick={toggle}
-            className="bg-green-500 border border-green-300 py-2 px-4 rounded-full"
+            className="bg-green-500 border border-green-300 py-2 px-4 rounded-full "
           >
             <CustomButton
               title="Home"

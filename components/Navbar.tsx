@@ -45,7 +45,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
         <Logo />
         <button
           type="button"
-          className="inline-flex items-center md:hidden bg-green-400 rounded-full p-1"
+          className="inline-flex items-center md:hidden bg-green-500 rounded-full p-1"
           onClick={toggle}
         >
           <svg xmlns="" width="40" height="40" viewBox="0 0 24 24">

@@ -155,9 +155,8 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
+/* For desktop: */
+@media only screen and (min-width: 600px) {
   .mImageGuide2 {
     display: none;
   }
