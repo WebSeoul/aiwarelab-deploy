@@ -42,7 +42,7 @@ function ContactForm() {
         className="mContactUs max-container rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white dark:bg-white gap-5 w-7/12"
       >
         <h1 className="flexCenter text-2xl font-bold dark:text-gray-50">
-          LET"S GET IN TOUCH
+          LET'S GET IN TOUCH
         </h1>
         <label className="text-gray-500 font-light mt-8 dark:text-gray-50">
           Name:
