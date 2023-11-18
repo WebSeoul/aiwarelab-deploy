@@ -38,7 +38,8 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
     <>
       <div
         // className="w-full h-20 bg-gray-100  top-0"
-        className="flexBetween  padding-container relative w-full z-30 py-5 bg-gray-200"
+        // className="flexBetween padding-container relative w-full z-30 py-5 bg-gray-200"
+        className="flexBetween max-container padding-container relative z-30 py-5"
       >
         {/* <div className="container mx-auto px-4 h-full"> */}
         {/* <div className="flex justify-between items-center h-full"> */}

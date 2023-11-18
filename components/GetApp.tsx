@@ -1,8 +1,16 @@
 import React from "react";
 import Button from "./Button";
 import Image from "next/image";
+import CustomButton from "@/components/CustomButton";
 
 const GetApp = () => {
+  const handleScrollToContactUSForm = () => {
+    const nextSection = document.getElementById("get-in-touch");
+
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="flexCenter w-full flex-col pb-[100px] py-10 px-8">
       <div className="get-app">
@@ -14,7 +22,12 @@ const GetApp = () => {
             We integrate Chatbots to Web Pages, whatsapp & more...
           </p>
           <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
-            <Button type="button" title="Order" variant="btn_white" full />
+            <CustomButton
+              title="Order"
+              handleClick={handleScrollToContactUSForm}
+              containerStyles="bg-white text-green-500 font-bold border border-green-300 max-container w-full py-2 px-4 rounded-full transition duration-300 hover:bg-green-500 hover:text-white hover:border-green-500"
+            ></CustomButton>
+            {/* <Button type="button" title="Order" variant="btn_white" full /> */}
             {/* <Button 
               type="button"
               title="Play Store"
