@@ -53,12 +53,14 @@ export default function RootLayout({
             })(document, "script");
           }}
         ></Script> */}
-        <Script
+        {/* <Script
           src="https://cdn.voiceflow.com/widget/bundle.mjs"
           onLoad={() => {
             (function (d, t) {
-              var v = d.createElement(t),
-                s = d.getElementsByTagName(t)[0];
+              element: HTMLElement;
+              // var v = d.createElement(t),
+              (this.element = d.createElement(t)),
+                (s = d.getElementsByTagName(t)[0]);
               v.onload = function () {
                 (window as any).voiceflow.chat.load({
                   verify: { projectID: "6558130e63d2b3000791e7c9" },
@@ -71,7 +73,7 @@ export default function RootLayout({
               s.parentNode.insertBefore(v, s);
             })(document, "script");
           }}
-        ></Script>
+        ></Script> */}
       </body>
     </html>
   );
