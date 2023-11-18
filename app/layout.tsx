@@ -60,7 +60,7 @@ export default function RootLayout({
               var v = d.createElement(t),
                 s = d.getElementsByTagName(t)[0];
               v.onload = function () {
-                window.voiceflow.chat.load({
+                (window as any).voiceflow.chat.load({
                   verify: { projectID: "6558130e63d2b3000791e7c9" },
                   url: "https://general-runtime.voiceflow.com",
                   versionID: "production",
